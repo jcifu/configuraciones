@@ -1,0 +1,7 @@
+server:
+  port: 2222
+          
+eureka:
+  client:
+    service-url:
+      defaultZone: https://localhost:2222/eureka
